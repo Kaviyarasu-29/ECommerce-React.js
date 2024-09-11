@@ -1,0 +1,68 @@
+.Carousel {
+    background-image: url('https://sony.scene7.com/is/image/sonyglobalsolutions/Headphones-primary%20tout-desktop-4000x980?$toutDesktop$&fmt=png-alpha');
+    height: 40rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.circle-star-new{
+    background-color: white;
+    border-radius: 70%;
+    border: 3px red;
+}
+
+.carousel-text {
+    margin-left: 9%;
+    width: 45%;
+}
+
+.circle-star-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+.circle-star-heading h4 {
+    margin-bottom: 0 !important;
+    margin-left: 0.5rem;
+    color: red;
+    font-size: 1.25rem;
+}
+
+.carousel-headphone{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.heebo-600 {
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.Headphone-discription {
+    font-size: 1.1rem;
+    width: 75%;
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: lightgray;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.carousel-text .btn-primary{
+    height: 3rem;
+    width: 11rem;
+    background-color: #0568fd;
+}

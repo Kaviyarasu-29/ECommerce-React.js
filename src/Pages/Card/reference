@@ -1,0 +1,36 @@
+
+import React from 'react';
+
+const Card = ({ cart, setCart }) => {
+  const getTotalAmount = () => {
+    return cart.reduce((total, product) => total + product.price, 0);
+  };
+
+  const handleRemoveFromCart = (productId) => {
+    const updatedCart = cart.filter(item => item.id !== productId);
+    setCart(updatedCart);
+  };
+
+  return (
+    <div>
+      <h1 className="cartHeading">List Of Cart Products</h1>
+
+      <div className="cartProduct">
+        {cart.map((product) => (
+          <div className="selectedProduct" key={product.id}>
+            <img src={product.productImage} alt={product.productName} />
+            <div className="productDetails">
+              <p className="productName">{product.productName}</p>
+              <p className="productPrice">${product.price}</p>
+              <button onClick={() => handleRemoveFromCart(product.id)} className="removeButton">Remove</button>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h2 className="totalPrice">Total Amount : ${getTotalAmount()}</h2>
+    </div>
+  );
+};
+
+export default Card;

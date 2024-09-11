@@ -1,0 +1,150 @@
+.heebo{
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+
+
+.Shop-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.home-layout-control {
+
+    width: 80%;
+    text-align: center;
+}
+
+
+
+.Browse-by-category {
+    margin-bottom: 6rem;
+}
+
+.Browse-by-category-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Browse-by-category-card .col-md-3 img {
+    height: 10rem;
+    width: fit-content !important;
+    margin-bottom: 1rem;
+}
+.Browse-by-category-card .card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.adjust-padding{
+    padding: 1rem;
+}
+.adjust-padding-laptop{
+    padding: 0.5rem;
+}
+
+.Browse-by-category .row {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.Browse-by-category .card-body {
+    height: 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-filter-alignment .card-title {
+    text-decoration: none !important;
+    position: relative;
+    top: -2rem;
+    left: -1rem;
+    color: grey !important;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+.Browse-by-category-title {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.category-change-button button {
+    margin: 0 !important;
+
+}
+
+
+.New-Arrivals {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+.add-to-cart-width{
+    margin-left: 0.5rem;
+    border: none;
+    cursor: pointer;
+    
+}
+.add-to-cart-icons{
+    border: 4px white;
+    background-color: white;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+}
+
+.add-to-cart-btn{
+    width: 14rem;
+    position: absolute;
+    bottom: 1rem; 
+    top: 7rem;
+    right: -7rem;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s, visibility 1s;
+    display: flex;
+    align-items: center;
+
+} 
+.featured-product-alter .Category-card:hover .add-to-cart-btn{
+    opacity: 1;
+    visibility: visible;
+}
+.featured-product-alter .Category-card{
+    position: relative; 
+}
+
+
+
+
